@@ -5,7 +5,7 @@ body {
   text-align: center;
   align-items: center;
 }
-
+/* form styles */
 input {
   width: 100%;
   padding: em;
@@ -21,6 +21,8 @@ label {
   font-size: 1.5em;
 }
 
+
+/* button styles */
 .button {
   background-color: #4CAF50;
   width: 20%;
@@ -41,4 +43,51 @@ label {
   width: 1rem;
   height: 1rem;
   font-size: 1rem;
+}
+
+/* Table Styles */
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.alert-success {
+  background-color: hsl(116, 100%, 54%, 0.6);
+  box-shadow: 5px 5px 5px hsl(116, 100%, 54%, 0.2);
+  width: 20%;
+  padding: 10px;
+  border-radius: 2px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.alert-danger {
+  background-color: hsl(0, 100%, 54%, 0.8);
+  box-shadow: 5px 5px 5px hsl(0, 100%, 54%, 0.2);
+  width: 20%;
+  padding: 10px;
+  border-radius: 2px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
 }
